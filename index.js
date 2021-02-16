@@ -10,6 +10,8 @@ import argumentToNextMethod from './argumentToNextMethod'
 import argumentToNextMethod2 from './argumentToNextMethod2'
 import errorHandling from './errorHandling'
 import generatorComposition from './generatorComposition'
+import generatorComposition2 from './generatorComposition2'
+import asyncAwaitImplementation from './asyncAwaitImplementation'
 
 // customIterator()
 // builtInIterator()
@@ -22,4 +24,6 @@ import generatorComposition from './generatorComposition'
 // argumentToNextMethod()
 // argumentToNextMethod2()
 // errorHandling()
-generatorComposition()
+// generatorComposition()
+// generatorComposition2()
+asyncAwaitImplementation()
