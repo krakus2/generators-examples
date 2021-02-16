@@ -1,6 +1,7 @@
 import customIterator from './customIterator'
 import builtInIterator from './builtInIterator'
 import otherBuiltInIterators from './otherBuiltInIterators'
+import arrayLikesVsIterables from './arrayLikesVsIterables'
 import forOfVsForIn from './forOfVsForIn'
 import simpleGenerator from './simpleGenerator'
 import customGenerator from './customGenerator'
@@ -16,6 +17,7 @@ import asyncAwaitImplementation from './asyncAwaitImplementation'
 // customIterator()
 // builtInIterator()
 // otherBuiltInIterators()
+// arrayLikesVsIterables()
 // forOfVsForIn()
 // simpleGenerator()
 // customGenerator()
@@ -26,4 +28,4 @@ import asyncAwaitImplementation from './asyncAwaitImplementation'
 // errorHandling()
 // generatorComposition()
 // generatorComposition2()
-asyncAwaitImplementation()
+// asyncAwaitImplementation()

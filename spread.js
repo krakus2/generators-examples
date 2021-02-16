@@ -8,14 +8,15 @@ export default function () {
     },
   }
 
+  // iterator vs iterable example
+  for (let value of iterable) {
+    console.log(value)
+  }
+
+  // spread example
   const arrayFromTheGenerator = [...iterable]
 
   for (let value of arrayFromTheGenerator) {
     console.log(value)
   }
-
-  // of course you could do simpler
-  // for (let value of iterable) {
-  //   console.log(value)
-  // }
 }
