@@ -18,9 +18,9 @@ export default async function () {
       if (result.done) {
         return result.value
       } else {
-        //Promise.resolve(value) creates a resolved promise with the result value.
-        //Same as:
-        //const promise = new Promise(resolve => resolve(value));
+        // Promise.resolve(value) creates a resolved promise with the result value.
+        // Same as:
+        // const promise = new Promise(resolve => resolve(value));
         return Promise.resolve(result.value).then(run)
       }
     }

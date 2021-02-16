@@ -23,7 +23,7 @@ export default function () {
     return yield yield yield 666
   }
 
-  const iterator2 = generatorFunction2(2)
+  const iterator2 = generatorFunction2()
 
   // yield will only assign the value passed to next()
   // when resuming execution from a previous iteration.
